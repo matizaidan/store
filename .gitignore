@@ -1,0 +1,27 @@
+# Python
+*.py[cod]
+__pycache__/
+
+# Entornos virtuales
+venv/
+env/
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos de bases de datos
+db.sqlite3
+
+# Archivos de migraciones
+*/migrations/*.py
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# Archivos de configuración de pruebas
+*.log
+*.pot
+*.pyc
+
+# Archivos de configuraciones personales
+*.env
