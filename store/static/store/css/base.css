@@ -1,0 +1,93 @@
+
+/* base.css */
+
+/* Estilos generales */
+body {
+    background-color: #f4f7fa; /* Color de fondo suave */
+    font-family: 'Arial', sans-serif; /* Fuente del texto */
+    margin: 0; /* Eliminar margen por defecto */
+    padding: 0; /* Eliminar padding por defecto */
+}
+
+/* Encabezado */
+header {
+    text-align: center; /* Centrar el texto */
+    margin-bottom: 30px; /* Espacio debajo del encabezado */
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    color: #333; /* Color del encabezado */
+    font-size: 2.5em; /* Tamaño del texto */
+    margin: 0; /* Eliminar margen por defecto */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    padding: 30px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center; /* Centrar el texto */
+    font-size: 0.9em; /* Tamaño de fuente más pequeño */
+    color: #666; /* Color gris */
+    margin-top: 40px; /* Espacio encima del pie de página */
+}
+
+/* Navegación */
+nav {
+    margin: 20px 0; /* Margen para la navegación */
+}
+
+/* Estilo para enlaces de navegación */
+nav a {
+    margin: 0 15px; /* Espacio entre enlaces */
+    color: #007bff; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Texto en negrita */
+    transition: color 0.3s, transform 0.2s; /* Transición suave para el color y efecto de transformación */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+    color: #0056b3; /* Cambio de color al pasar el mouse */
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+}
+
+/* Estilos de botones */
+.btn {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el mouse */
+}
+
+/* Estilos de tarjetas (opcional) */
+.card {
+    background-color: #fff; /* Color de fondo de la tarjeta */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin: 15px 0; /* Margen entre tarjetas */
+    padding: 20px; /* Espaciado interno */
+}
+
+.card h2 {
+    font-size: 1.5em; /* Tamaño del título de la tarjeta */
+    color: #333; /* Color del título */
+}
+
+.card p {
+    color: #666; /* Color del texto */
+}

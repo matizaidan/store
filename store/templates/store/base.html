@@ -1,16 +1,18 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es"> <!-- Cambié a "es" para reflejar el idioma -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'store/css/base.css' %}"> <!-- Cambia a tu nueva hoja de estilos -->
     <title>{% block title %}Mi Tienda{% endblock %}</title>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1 class="mt-5">Bienvenido a Mi Tienda</h1>
-            <nav>
+        <header class="my-5"> <!-- Añadido margen vertical -->
+            <h1 class="text-center">Bienvenido a Mi Tienda</h1>
+            <nav class="text-center"> <!-- Navegación centrada -->
                 <!-- Puedes agregar un menú de navegación aquí si lo deseas -->
             </nav>
         </header>
@@ -19,7 +21,7 @@
             {% block content %}{% endblock %}
         </main>
 
-        <footer class="mt-5 mb-5">
+        <footer class="mt-5 mb-5 text-center"> <!-- Centrado del pie de página -->
             <p>&copy; 2024 Mi Tienda</p>
         </footer>
     </div>
